@@ -6,15 +6,13 @@ import { render } from 'react-dom';
 // import { AppContainer } from 'react-hot-loader';
 // import configureStore from './store/configureStore';
 // import Root from './containers/Root';
+import Clock from './components/Clock';
 
 // const store = configureStore();
 // const history = syncHistoryWithStore(browserHistory, store);
 
 render(
-    // <AppContainer>
-        // <Root store={store} history={history} />
-        <h1>Hello, world!</h1>,
-    // </AppContainer>,
+    <Clock />,
     document.getElementById('root')
 );
 
